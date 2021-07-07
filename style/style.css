@@ -1,0 +1,61 @@
+.index_img{
+    height: 100%;
+    width: 100%;
+    margin-top: 50px;
+}
+.login-form{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+.reg-form {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+.reg-text , .login-text{
+    text-align: center;
+    position: relative;
+}
+
+.login-btn , .register-btn{
+    width:80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+}
+.btn-container{
+    display:flex;
+    justify-content: center;
+    gap:10px;
+}
+/* 
+a{
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 20px;
+    cursor: pointer;
+} */
+.sp-btn{
+    margin-left: -20px;
+}
+.card{
+    width: 450px;
+    /* display: flex; */
+    /* justify-content: center; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.profile-col {
+   margin-left: 90px;
+}
+
+.edit-btn{
+    width:100px;
+}
+.login-text{
+    padding-top: 150px;
+}

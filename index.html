@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIn Clone</title>
+    <link rel="stylesheet" href="./style/style.css">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div id='alert' class="mt-2 alert alert-danger" role="alert">
+                
+            </div>
+            <div class="col-6">
+                <h1 class="login-text text-primary">Login</h1>
+                <div class="login-form ">
+                    <form class="form-group">
+                        <label for="">Email</label>
+                        <input type="text" class="col-md-6 form-control" id='emailLogin' placeholder="Email">
+                        <label for="">Password</label>
+                        <input type="password" class="col-md-6 form-control" id='passwordLogin' placeholder="Password">
+
+
+                        <div class="btn-container">
+                            <a  class="mt-4 btn btn-danger" onclick="loginUser()">Login</a>
+                            <a href="./sign-up.html" class="register-btn btn btn-primary mt-4" >Register</a>
+                            
+                        </div>
+                    </form>
+                </div>
+                </div>
+            <div class="col-6">
+                <img src="./assestes/background.jpg" class="index_img" alt="background image">
+            </div>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
